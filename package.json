@@ -1,0 +1,28 @@
+{
+  "name": "node-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "http": "^0.0.0",
+    "mongodb": "^2.2.28",
+    "morgan": "^1.8.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=3000 MONGO_URL=mongodb://localhost:27017/ node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustovictor/node-ms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustovictor/node-ms/issues"
+  },
+  "homepage": "https://github.com/augustovictor/node-ms#readme"
+}
